@@ -1,0 +1,222 @@
+.header_manual
+{
+    /* display: block; */
+    height: 150px;
+}
+
+body{
+    margin:0;
+    padding:0;
+}   
+
+.table_manual{
+    /* margin-top: 50px; */
+    background-color: lightblue;
+    height: 80%;
+    border-collapse: collapse;
+    font-size: large;    
+}
+tr{
+    border: none;
+    
+}
+
+td{
+    /* border-collapse: collapse; */
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.div_about_me{
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    /* border-color:lightblue; */
+    background-color: lightskyblue;
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction:rtl;
+}
+
+.about_me_header{
+    font-style: italic;
+    font-family: cursive;
+    /* color:; */
+    z-index: 700;
+    position: relative;
+    width: 100%
+}
+
+.my_photos_header{
+    font-style: italic;
+    font-family: cursive;
+    color:deepskyblue;
+    
+}
+
+.div_my_photos{
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    background-color: lightskyblue;
+    background-image: url("images/Photos\ Frams.PNG");
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction:rtl;
+    position: relative;
+}
+
+.my_playlist_header{
+    color:black;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.like_header{
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    /* background-color: lightskyblue; */
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-style: italic;
+    background-image: url("images/RateUs.png");
+    background-size:auto;
+}
+
+.div_my_playlist{
+    color:black;
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    background-image: url("images/Music.jpg");
+    background-size: 1500px 550px;
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction:rtl;
+    position: relative;
+}
+
+.image_top_left{
+    position: absolute;
+    top: 800px;
+    left: 0px;
+}
+
+.image_bottom_right{
+    position: absolute;
+    top: 835px;
+    right: 60px;
+}
+
+.image_repositioning_left{
+    position:relative;
+}
+
+.container{
+
+    background-color: lightblue;
+}
+
+.container img {
+    position: absolute;
+    z-index: 0;
+}
+.container img:hover {
+    position: absolute;
+    z-index: 1;
+}
+
+.Q_A_header{
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-style: italic;
+}
+
+.div_Q_A{
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    background-size: 1500px 550px;
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction:rtl;
+    position: relative;
+    background-image: url("images/QA.jpg");
+    background-size: cover;
+}
+
+
+.back_to_top_footer{
+    background-color: lightskyblue;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-left-width: 8px;
+    border-radius: 50px;
+    border: 2px solid blue;
+    border-width:3px;
+    padding: 10px;
+}
+
+.p_background{
+    background-color: white;
+}
+
+.div_QR{
+    background-color: lightskyblue;
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction:rtl;
+    position: relative;
+}
+
+.QR_header{
+    background-color: lightskyblue;
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    background-size: 1500px 550px;
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction:rtl;
+    position: relative;
+}
+
+/*
+    font-size: 25px;
+    border: none;
+    color: white;
+    position: relative;
+    background-color: lightskyblue;
+    border-left-color: blue;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-width: 8px;
+    background-size: 1500px 550px;
+    border-style:solid;
+*/
