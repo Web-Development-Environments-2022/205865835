@@ -4,13 +4,6 @@
     height: 150px;
 }
 
-
-body{
-    box-sizing: border-box;
-    margin: 0;
-    height: 150px;
-  }
-
 .table_manual{
     /* margin-top: 50px; */
     background-color: lightblue;
@@ -42,6 +35,7 @@ td{
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
+    padding-top: 105px;
 }
 
 .about_me_header{
@@ -67,7 +61,7 @@ td{
     border-right-color: white;
     border-left-width: 8px;
     background-color: lightskyblue;
-    background-image: url("images/Photos\ Frams.PNG");
+    background-image: url("/images/Photos\ Frams.PNG");
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
@@ -91,7 +85,7 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     font-style: italic;
-    background-image: url("images/RateUs.png");
+    background-image: url("/images/RateUs.png");
     background-size:auto;
 }
 
@@ -102,7 +96,7 @@ td{
     border-top-color: white;
     border-right-color: white;
     border-left-width: 8px;
-    background-image: url("images/Music.jpg");
+    background-image: url("/images/Music.jpg");
     background-size: 1500px 550px;
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -124,11 +118,6 @@ td{
 
 .image_repositioning_left{
     position:relative;
-}
-
-.container{
-
-    background-color: lightblue;
 }
 
 .container img {
@@ -160,9 +149,8 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
-    background-image: url("images/QA.jpg");
+    background-image: url("/images/QA.jpg");
     background-size: cover;
-    font-size: 21;
 }
 
 
@@ -223,3 +211,55 @@ td{
     background-size: 1500px 550px;
     border-style:solid;
 */
+
+/* input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+   */
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    background-image: url("/images/Contact.jpg");
+    background-size:cover;
+}
+
+.contact_us_header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 35px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky_header{
+    width:100%;
+    height: 50px; 
+    position: fixed;
+    z-index: 999;
+}
