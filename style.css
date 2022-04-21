@@ -5,7 +5,20 @@
 }
 
 
-textarea {
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+  }
+  /* #con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } */
+  textarea {
     resize: none;
     margin-top: 10px;
     box-sizing: content-box;
@@ -94,12 +107,6 @@ textarea {
     transform: scale(0.95);
   }
   
-
-
-body{
-    margin:0;
-    padding:0;
-}   
 
 .table_manual{
     /* margin-top: 50px; */
