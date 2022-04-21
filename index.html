@@ -7,7 +7,14 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
 <!--         <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
         <!-- <script src='main.js'></script> -->
-        <link rel="stylesheet" type="text/css"  href="style.css" /> 
+        <link rel="stylesheet" type="text/css"  href="style.css" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src='inputEmoji.js'></script>
+        <script>
+            $(function () {
+                $('input[name=Comment]').emoji({place: 'after'});
+            })
+        </script>
     </head>
     <body class="image_fit">
 
@@ -195,46 +202,6 @@
                     </form>
             </div>
 
-            <div id="con">
-                <!-- Component -->
-                <div class="emojiPicker">
-                  <div class="emojis">
-                    <div class="emojiFrame"><span class="emoji">&#128540;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128513;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128514;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128515;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128516;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128517;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128518;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128519;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128521;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128522;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128523;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128524;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128525;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128526;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128527;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128528;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128529;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128530;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128531;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128532;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128533;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128534;</span></div>     
-                    <div class="emojiFrame"><span class="emoji">&#128535;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128536;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128537;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128538;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128539;</span></div>
-                    <div class="emojiFrame"><span class="emoji">&#128546;</span></div>
-                  </div>
-                </div>
-                <!-- Sample text input -->
-                <div id="text">
-                  <textarea id="target"></textarea>
-                </div>
-              </div>
-         
         </content>
             
         <script>
@@ -252,56 +219,12 @@
             }
         </script>
         
-        <script>
-                window.onclick.$(".emojiFrame") = function() {emojiClicked}
-                function emojiClicked(){
-                    $(".emojiFrame").click(function(){
-                    // target, where emoji will be placed
-                    var target = $("#target");
-
-                //emoji will be placed always at end of textbox
-                target.text(target.text() + $(this).text());
-                })
-            }
-        </script>
-
             <div class="back_to_top_footer">
                 <a href="#Top_Page">Back To Page's Top</a>
             </div>
 
         </content>
             
-        <!-- <div class="back_to_top_footer">
-            <a href="#Top_Page">Back To Page's Top</a>
-        </div> -->
-        <script type="text/javascript">
-            $(function(){
-              $("#nav a").click(function(e){
-                e.preventDefault();
-                $('html,body').scrollTo(this.hash,this.hash); 
-              });
-            });
-            </script>
-            <script type="text/javascript">
-             $(document).scroll(function() {
-                $('#menu').toggle($(this).scrollTop()>1000)
-             });​
-             </script>
-    
-            <script>
-                $(document).ready(function(){
-                  $(".emojiFrame").click(function(){
-                    // target, where emoji will be placed
-                    var target = $("#target");
-
-                    //emoji will be placed always at end of textbox
-                    target.text(target.text() + $(this).text());
-                  })
-                })
-            </script>
-
-test
-
     </body>
     <!-- <footer> -->
 
