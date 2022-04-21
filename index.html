@@ -182,6 +182,19 @@
 
             </div>
         
+                        <div class="container">
+                <h3 class="contact_us_header"><U>Contact Us</U></h3>
+                <form action="mailto:amsador@post.bgu.ac.il?subject=Contact Us!" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input type="text" name="Name" placeholder="First Name:"><br>
+                    Comment:<br>
+                    <input type="text"  name="Comment" placeholder="Comment" size="50"><br><br>
+                    
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                    </form>
+            </div>
+
             <div id="con">
                 <!-- Component -->
                 <div class="emojiPicker">
@@ -221,7 +234,37 @@
                   <textarea id="target"></textarea>
                 </div>
               </div>
-    
+         
+        </content>
+            
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("Top_Page");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+                } else {
+                header.classList.remove("sticky");
+                }
+            }
+        </script>
+        
+        <script>
+                window.onclick.$(".emojiFrame") = function() {emojiClicked}
+                function emojiClicked(){
+                    $(".emojiFrame").click(function(){
+                    // target, where emoji will be placed
+                    var target = $("#target");
+
+                //emoji will be placed always at end of textbox
+                target.text(target.text() + $(this).text());
+                })
+            }
+        </script>
+
             <div class="back_to_top_footer">
                 <a href="#Top_Page">Back To Page's Top</a>
             </div>
