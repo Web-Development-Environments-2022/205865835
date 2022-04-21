@@ -288,18 +288,17 @@
              });​
              </script>
     
-             <script>
-                window.onclick.$(".emojiFrame") = function() {emojiClicked}
-                function emojiClicked(){
-                    $(".emojiFrame").click(function(){
+            <script>
+                $(document).ready(function(){
+                  $(".emojiFrame").click(function(){
                     // target, where emoji will be placed
                     var target = $("#target");
 
-                //emoji will be placed always at end of textbox
-                target.text(target.text() + $(this).text());
+                    //emoji will be placed always at end of textbox
+                    target.text(target.text() + $(this).text());
+                  })
                 })
-            }
-        </script>
+            </script>
 
     </body>
     <!-- <footer> -->
