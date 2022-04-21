@@ -12,7 +12,7 @@
         <script src='inputEmoji.js'></script>
         <script>
             $(function () {
-                $('input[name=Comment]').emoji({place: 'after'});
+                $('textarea[name=message]').emoji({place: 'after'});
             })
         </script>
     </head>
@@ -190,30 +190,24 @@
 
             <div class="container">
                 <h3 class="contact_us_header"><U>Contact Us</U></h3>
-                <form action="mailto:amsador@post.bgu.ac.il?subject=Contact Us!" method="post" enctype="multipart/form-data">
-                    <!-- Name:<br>
-                    <input type="text" name="Name" placeholder="Full Name"><br>
-                     -->
-                    Comment:<br>
-                    <input type="text" name="Comment" placeholder="Comment"><br><br>
-                    <input type="submit" value="Send">
-                    <!-- <input type="reset" value="Reset"> -->
-                    </form>
-            </div>
-
-
-            <!-- <div class="container">
-                <h3 class="contact_us_header"><U>Contact Us</U></h3>
-                <form action="mailto:amsador@post.bgu.ac.il?subject=Contact Us!" method="post" enctype="multipart/form-data">
-                    Name:<br>
-                    <input type="text" name="Name" placeholder="First Name:"><br>
-                    Comment:<br>
-                    <input type="text" name="mes" placeholder="Comment"><br><br>
+                <form action="https://formspree.io/f/mvolwebn" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Your message:
                     
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset">
-                    </form>
-            </div> -->
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+                <input type="reset" value="Reset">
+
+                </form>
+            </div>
 
 
         </content>
