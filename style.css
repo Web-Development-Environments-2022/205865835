@@ -51,6 +51,7 @@ td{
     direction:rtl;
     padding-top: 105px;
     background-image: url("images/about_me.jpg");
+    background-size: cover;
 }
 
 .about_me_header{
@@ -195,7 +196,7 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
-    background-image: url("images/QR_BG.webp");
+    background-image: url("images/QR_BG.jpg");
 }
 
 .QR_header{
