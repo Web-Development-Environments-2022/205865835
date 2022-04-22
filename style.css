@@ -75,7 +75,7 @@ td{
     border-right-color: white;
     border-left-width: 8px;
     background-color: lightskyblue;
-    background-image: url("/images/Photos\ Frams.PNG");
+    background-image: url("images/Photos\ Frams.PNG");
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
@@ -99,7 +99,7 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     font-style: italic;
-    background-image: url("/images/RateUs.png");
+    background-image: url("images/RateUs.png");
     background-size:auto;
 }
 
@@ -110,7 +110,7 @@ td{
     border-top-color: white;
     border-right-color: white;
     border-left-width: 8px;
-    background-image: url("/images/Music.jpg");
+    background-image: url("images/Music.jpg");
     background-size: 1500px 550px;
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
