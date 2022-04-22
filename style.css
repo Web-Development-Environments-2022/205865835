@@ -50,6 +50,7 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     padding-top: 105px;
+    background-image: url("images/about_me.jpg");
 }
 
 .about_me_header{
@@ -168,8 +169,7 @@ td{
 }
 
 
-.back_to_top_footer{
-    background-color: lightskyblue;
+.back_to_top{
     font-size: 30px;
     color: white;
     text-align: center;
