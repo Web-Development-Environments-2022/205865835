@@ -14,12 +14,10 @@ body{
 
 .header_manual
 {
-    /* display: block; */
     height: 150px;
 }
 
 .table_manual{
-    /* margin-top: 50px; */
     background-color: lightblue;
     height: 80%;
     border-collapse: collapse;
@@ -31,7 +29,6 @@ tr{
 }
 
 td{
-    /* border-collapse: collapse; */
     border-right: solid 2px black;
     border-left: solid 2px black;
     border-left-style: solid;
@@ -40,12 +37,7 @@ td{
 
 .div_about_me{
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
-    /* border-color:lightblue; */
-    background-color: lightskyblue;
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
@@ -72,11 +64,7 @@ td{
 
 .div_my_photos{
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
-    background-color: lightskyblue;
     background-image: url("images/Photos\ Frams.PNG");
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,11 +80,7 @@ td{
 
 .like_header{
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
-    /* background-color: lightskyblue; */
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
@@ -108,9 +92,6 @@ td{
 .div_my_playlist{
     color:black;
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
     background-image: url("images/Music.jpg");
     background-size: 1500px 550px;
@@ -146,9 +127,6 @@ td{
 }
 
 .Q_A_header{
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     font-style: italic;
@@ -156,9 +134,6 @@ td{
 
 .div_Q_A{
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
     background-size: 1500px 550px;
     border-style:solid;
@@ -186,11 +161,7 @@ td{
 }
 
 .div_QR{
-    background-color: lightskyblue;
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
     border-style:solid;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -202,11 +173,7 @@ td{
 }
 
 .QR_header{
-    background-color: lightskyblue;
     border-left-color: blue;
-    border-bottom-color: white;
-    border-top-color: white;
-    border-right-color: white;
     border-left-width: 8px;
     background-size: 1500px 550px;
     border-style:solid;
