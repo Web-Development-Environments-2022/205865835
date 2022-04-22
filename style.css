@@ -197,6 +197,8 @@ td{
     direction:rtl;
     position: relative;
     background-image: url("images/QR_BG.jpg");
+    background-size: cover;
+
 }
 
 .QR_header{
