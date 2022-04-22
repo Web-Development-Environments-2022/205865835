@@ -163,7 +163,7 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
-    background-image: url("/images/QA.jpg");
+    background-image: url("images/QA.jpg");
     background-size: cover;
 }
 
@@ -195,6 +195,7 @@ td{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
+    background-image: url("images/QR_BG.webp");
 }
 
 .QR_header{
