@@ -11,6 +11,34 @@ body{
     margin: 0;
 }
 
+h1{
+    font-style: italic;
+    font-family: cursive;
+    /* z-index: 700; */
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:lightblue;
+    width: fit-content;
+    text-align: center;
+}
+
+
+.header_manual
+{
+    height: 150px;
+}
+
+.para{
+    font-size: 28px;
+}
+
+textarea{
+    font-size:25px
+}
+
+body{
+    margin: 0;
+}
 
 .header_manual
 {
@@ -21,8 +49,9 @@ body{
     background-color: lightblue;
     height: 80%;
     border-collapse: collapse;
-    font-size: large;    
+    font-size: 35px;    
 }
+
 tr{
     border: none;
     
@@ -34,12 +63,10 @@ td{
     border-left-style: solid;
     border-right-style: solid;
 }
-
 .div_about_me{
     border-left-color: blue;
     border-left-width: 8px;
     border-style:solid;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     padding-top: 105px;
     background-image: url("images/about_me.jpg");
@@ -51,14 +78,16 @@ td{
     font-family: cursive;
     z-index: 700;
     position: relative;
-    width: 100%
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .my_photos_header{
     font-style: italic;
     font-family: cursive;
-    color:deepskyblue;
-    
+    filter:brightness(10px);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .div_my_photos{
@@ -66,7 +95,6 @@ td{
     border-left-width: 8px;
     background-image: url("images/Photos\ Frams.PNG");
     border-style:solid;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
 }
@@ -95,34 +123,8 @@ td{
     background-image: url("images/Music.jpg");
     background-size: 1500px 550px;
     border-style:solid;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
-}
-
-.image_top_left{
-    position: absolute;
-    top: 800px;
-    left: 0px;
-}
-
-.image_bottom_right{
-    position: absolute;
-    top: 835px;
-    right: 60px;
-}
-
-.image_repositioning_left{
-    position:relative;
-}
-
-.container img {
-    position: absolute;
-    z-index: 0;
-}
-.container img:hover {
-    position: absolute;
-    z-index: 1;
 }
 
 .Q_A_header{
@@ -131,12 +133,12 @@ td{
     font-style: italic;
 }
 
+
 .div_Q_A{
     border-left-color: blue;
     border-left-width: 8px;
     background-size: 1500px 550px;
     border-style:solid;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     direction:rtl;
     position: relative;
     background-image: url("images/QA.jpg");
@@ -155,9 +157,6 @@ td{
     padding: 10px;
 }
 
-.p_background{
-    background-color: white;
-}
 
 .div_QR{
     border-left-color: blue;
@@ -168,17 +167,6 @@ td{
     position: relative;
     background-image: url("images/QR_BG.jpg");
     background-size: cover;
-
-}
-
-.QR_header{
-    border-left-color: blue;
-    border-left-width: 8px;
-    background-size: 1500px 550px;
-    border-style:solid;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    direction:rtl;
-    position: relative;
 }
 
 
@@ -192,12 +180,7 @@ td{
     background-size:cover;
 }
 
-.contact_us_header{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    text-align: center;
-    font-size: 35px;
-}
+
 
 .sticky {
     position: fixed;
