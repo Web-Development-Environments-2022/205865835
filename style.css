@@ -188,6 +188,7 @@ td{
     /* background-color: #f2f2f2; */
     padding: 20px;
     background-image: url("images/Contact.jpg");
+    border-left-color: blue;
     background-size:cover;
 }
 
