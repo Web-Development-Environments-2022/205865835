@@ -180,13 +180,13 @@
 
             <div align="center" id="contact_us" class="contact_us">
                 <h1><U>Contact Me</U></h1>
-              <div class="container">
+              <div align="left" class="container">
                 <h3 class="contact_us_header"><U>Contact Us</U></h3>
                 <form action="mailto:amsador@post.bgu.ac.il?subject=Contact Us!" method="post" enctype="multipart/form-data">
                     Name:<br>
-                    <input type="text" name="Name" placeholder="Full Name"><br>
+                    <input type="text" name="Name" placeholder="Full Name" required><br>
                     Comment:<br>
-                    <input type="text" name="Comment" placeholder="Comment"><br><br>
+                    <textarea name="message" placeholder="Comment" rows="4" cols="70" required> <br><br>
                     <input type="submit" value="Send">
                     <input type="reset" value="Reset">
                 </form>
