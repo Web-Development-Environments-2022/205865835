@@ -180,27 +180,17 @@
 
             <div align="center" id="contact_us" class="contact_us">
                 <h1><U>Contact Me</U></h1>
-                <div align="left">
-                    <form class="form_style" action="https://formspree.io/f/mvolwebn" method="POST">
-                    <label>
-                        Your email:
-                        <br>
-                        <input type="email" name="email" placeholder="Email" required>
-                    </label>
-                    <br>
-                    <br>
-                    <label>
-                        Your message:
-                        <br>
-                        <textarea name="message" placeholder="Message" rows="4" cols="70" required></textarea>
-                    </label>
-                    <br>
-                    <button type="submit">Send</button>
+              <div class="container">
+                <h3 class="contact_us_header"><U>Contact Us</U></h3>
+                <form action="mailto:amsador@post.bgu.ac.il?subject=Contact Us!" method="post" enctype="multipart/form-data">
+                    Name:<br>
+                    <input type="text" name="Name" placeholder="Full Name"><br>
+                    Comment:<br>
+                    <input type="text" name="Comment" placeholder="Comment"><br><br>
+                    <input type="submit" value="Send">
                     <input type="reset" value="Reset">
-                    <br>
-                    <br>
-                    </form>
-             </div>
+                </form>
+            </div>
             </div>
         </content>
             
